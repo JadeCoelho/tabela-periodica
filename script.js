@@ -460,9 +460,9 @@ const  elementos = [
         el: "56"
     },
     {
-        nome: "Lantânio",
-        sigla: "La",
-        el: "57"
+        nome: "",
+        sigla: "La - Lu",
+        el: ""
     },
     {
         nome: "Háfnio",
@@ -550,9 +550,9 @@ const  elementos = [
         el: "88"
     },
     {
-        nome: "Actínio",
-        sigla: "Ac",
-        el: "89"
+        nome: "",
+        sigla: "Ac - Lr",
+        el: ""
     },
     {
         nome: "Rutherfórdio",
@@ -631,25 +631,175 @@ const  elementos = [
     }
 ]
 
+const  lantact = [
+    {
+        nome: "Lantânio",
+        sigla: "La",
+        el: "57"
+    },
+    {
+        nome: "Cério",
+        sigla: "Ce",
+        el: "58"
+    },
+    {
+        nome: "Praseodímio",
+        sigla: "Pr",
+        el: "59"
+    },
+    {
+        nome: "Neodímio",
+        sigla: "Nd",
+        el: "60"
+    },
+    {
+        nome: "Promécio",
+        sigla: "Pm",
+        el: "61"
+    },
+    {
+        nome: "Samário",
+        sigla: "Sm",
+        el: "62"
+    },
+    {
+        nome: "Európio",
+        sigla: "Eu",
+        el: "63"
+    },
+    {
+        nome: "Gadolínio",
+        sigla: "Gd",
+        el: "64"
+    },
+    {
+        nome: "Térbio",
+        sigla: "Tb",
+        el: "65"
+    },
+    {
+        nome: "Disprósio",
+        sigla: "Dy",
+        el: "66"
+    },
+    {
+        nome: "Hólmio",
+        sigla: "Ho",
+        el: "67"
+    },
+    {
+        nome: "Érbio",
+        sigla: "Er",
+        el: "68"
+    },
+    {
+        nome: "Túlio",
+        sigla: "Tm",
+        el: "69"
+    },
+    {
+        nome: "Itérbio",
+        sigla: "Yb",
+        el: "70"
+    },
+    {
+        nome: "Lutécio",
+        sigla: "Lu",
+        el: "71"
+    },
+    {
+        nome: "Actínio",
+        sigla: "Ac",
+        el: "89"
+    },
+    {
+        nome: "Tório",
+        sigla: "Th",
+        el: "90"
+    },
+    {
+        nome: "Protactínio",
+        sigla: "Pa",
+        el: "91"
+    },
+    {
+        nome: "Urânio",
+        sigla: "U",
+        el: "92"
+    },
+    {
+        nome: "Neptúnio",
+        sigla: "Np",
+        el: "93"
+    },
+    {
+        nome: "Plutônio",
+        sigla: "Pu",
+        el: "94"
+    },
+    {
+        nome: "Amerício",
+        sigla: "Am",
+        el: "95"
+    },
+    {
+        nome: "Cúrio",
+        sigla: "Cm",
+        el: "96"
+    },
+    {
+        nome: "Berquélio",
+        sigla: "Bk",
+        el: "97"
+    },
+    {
+        nome: "Califórnio",
+        sigla: "Cf",
+        el: "98"
+    },
+    {
+        nome: "Einstênio",
+        sigla: "Es",
+        el: "99"
+    },
+    {
+        nome: "Férmio",
+        sigla: "Fm",
+        el: "100"
+    },
+    {
+        nome: "Mendelévio",
+        sigla: "Md",
+        el: "101"
+    },
+    {
+        nome: "Nobélio",
+        sigla: "No",
+        el: "102"
+    },
+    {
+        nome: "Laurêncio",
+        sigla: "Lr",
+        el: "103"
+    }
+]
+
 var tabela = document.querySelector('.tabela')
-frente = document.querySelector('.frente')
-verso = document.querySelector('.verso')
-
-
+var tabelaLA = document.querySelector('.lantact')
 
 function criaElemento() {
 
-  for (var i = 0; i < elementos.length; i++) {
+  for (const element of elementos) {
 
-    let elE = document.createElement('p');
+    let nA = document.createElement('p');
     let siglaE = document.createElement('h2');
     let nomeE = document.createElement('h3');
 
-    elE.innerText = elementos[i].el;
-    siglaE.innerText = elementos[i].sigla;
-    nomeE.innerText = elementos[i].nome;
+    nA.innerText = element.el;
+    siglaE.innerText = element.sigla;
+    nomeE.innerText = element.nome;
 
-    elE.className = "eletron";
+    nA.className = "numA";
     siglaE.className = "sigla";
     nomeE.className = "nome";
 
@@ -658,58 +808,144 @@ function criaElemento() {
     let frente = document.createElement('div');
     frente.className = "frente";
 
-    frente.appendChild(elE);
+    frente.appendChild(nA);
     frente.appendChild(siglaE);
     frente.appendChild(nomeE);
     elementoE.appendChild(frente);
 
     tabela.appendChild(elementoE);
 
-    if(elementos[i].el == '' && elementos[i].nome == '' && elementos[i].sigla == ''){
+    if(element.el == '' && element.nome == '' && element.sigla == ''){
         elementoE.style.visibility = 'hidden'
     }
         
     elementoE.addEventListener('click', ()=>{
         if(elementoE.classList.contains('invisivel')){
             elementoE.classList.remove('invisivel');
-            elE.style.visibility = 'visible'
+            nA.style.visibility = 'visible'
             siglaE.style.visibility = 'visible'
             nomeE.style.visibility = 'visible'
         } else {
             elementoE.classList.add('invisivel');
-            elE.style.visibility = 'hidden'
+            nA.style.visibility = 'hidden'
             siglaE.style.visibility = 'hidden'
             nomeE.style.visibility = 'hidden'    
         }
     })
 
-    
-    btnMostrar = document.querySelector('.mostrar')
-    btn = document.querySelector('.btn')
-    btnLimpar = document.querySelector('.limpar')
-    btnLimpar.addEventListener('click', ()=>{
-        elE.style.visibility = 'hidden'
-        siglaE.style.visibility = 'hidden'
-        nomeE.style.visibility = 'hidden'    
+    btn.addEventListener('click', ()=>{
+        let span = btn.querySelector('span')
+        if(span.textContent == 'visibility'){
+            nA.style.visibility = 'visible'
+            siglaE.style.visibility = 'visible'
+            nomeE.style.visibility = 'visible'    
+        } else{
+            nA.style.visibility = 'hidden'
+            siglaE.style.visibility = 'hidden'
+            nomeE.style.visibility = 'hidden'  
+        }
     })
+  }
 
-    btnMostrar.addEventListener('click', ()=>{
-        elE.style.visibility = 'visible'
-        siglaE.style.visibility = 'visible'
-        nomeE.style.visibility = 'visible'    
+
+  for (const ele of lantact) {
+
+    let LAnA = document.createElement('p');
+    let LAsiglaE = document.createElement('h2');
+    let LAnomeE = document.createElement('h3');
+
+    LAnA.innerText = ele.el;
+    LAsiglaE.innerText = ele.sigla;
+    LAnomeE.innerText = ele.nome;
+
+    LAnA.className = "numA";
+    LAsiglaE.className = "sigla";
+    LAnomeE.className = "nome";
+
+    let eleE = document.createElement('div');
+    eleE.className = "elemento";
+    let elefrente = document.createElement('div');
+    elefrente.className = "frente";
+
+    elefrente.appendChild(LAnA);
+    elefrente.appendChild(LAsiglaE);
+    elefrente.appendChild(LAnomeE);
+    eleE.appendChild(elefrente);
+
+    tabelaLA.appendChild(eleE);
+
+    if(ele.el == '' && ele.nome == '' && ele.sigla == ''){
+        eleE.style.visibility = 'hidden'
+    }
+        
+    eleE.addEventListener('click', ()=>{
+        if(eleE.classList.contains('invisivel')){
+            eleE.classList.remove('invisivel');
+            LAnA.style.visibility = 'visible'
+            LAsiglaE.style.visibility = 'visible'
+            LAnomeE.style.visibility = 'visible'
+        } else {
+            eleE.classList.add('invisivel');
+            LAnA.style.visibility = 'hidden'
+            LAsiglaE.style.visibility = 'hidden'
+            LAnomeE.style.visibility = 'hidden'    
+        }
     })
 
     btn.addEventListener('click', ()=>{
         let span = btn.querySelector('span')
-        if(span.innerText == 'visibility'){
-            span.innerText = 'visibility_off';
-        } 
+        if(span.textContent == 'visibility'){
+            LAnA.style.visibility = 'visible'
+            LAsiglaE.style.visibility = 'visible'
+            LAnomeE.style.visibility = 'visible'    
+        } else{
+            LAnA.style.visibility = 'hidden'
+            LAsiglaE.style.visibility = 'hidden'
+            LAnomeE.style.visibility = 'hidden'  
+        }
     })
-
-
   }
-
 }
+
+var btn = document.querySelector('.visivel')
+var tema = document.querySelector('.tema')
+var body = document.querySelector('body')
+btn.addEventListener('click', ()=>{
+    let span = btn.querySelector('span')
+    if(span.textContent == 'visibility'){
+        span.textContent = 'visibility_off'
+    } else{
+        span.textContent = 'visibility'
+    }
+})
+
+tema.addEventListener('click', ()=>{
+    let spanTema = tema.querySelector('span')
+    if(spanTema.textContent == 'light_mode'){
+        spanTema.textContent = 'dark_mode'
+        body.classList.remove('claro')
+        body.classList.add('escuro')
+    } else{
+        spanTema.textContent = 'light_mode'
+        body.classList.remove('escuro')
+        body.classList.add('claro')
+    }
+})
+
+var help = document.querySelector('.help')
+var fechar = document.querySelector('.close')
+var modal = document.querySelector('.modal')
+var container = document.querySelector('.container')
+
+help.addEventListener('click', ()=>{
+    modal.style.display = 'block'
+    container.style.opacity = '.5'
+})
+
+fechar.addEventListener('click', ()=>{
+    modal.style.display = 'none'
+    container.style.opacity = '1'
+})
 
 
 criaElemento()

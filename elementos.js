@@ -360,3 +360,157 @@ let elementos = [
         el: "9"
     }
 ]
+
+
+const  lantact = [
+    {
+        nome: "Lantânio",
+        sigla: "La",
+        el: "57"
+    },
+    {
+        nome: "Cério",
+        sigla: "Ce",
+        el: "58"
+    },
+    {
+        nome: "Praseodímio",
+        sigla: "Pr",
+        el: "59"
+    },
+    {
+        nome: "Neodímio",
+        sigla: "Nd",
+        el: "60"
+    },
+    {
+        nome: "Promécio",
+        sigla: "Pm",
+        el: "61"
+    },
+    {
+        nome: "Samário",
+        sigla: "Sm",
+        el: "62"
+    },
+    {
+        nome: "Európio",
+        sigla: "Eu",
+        el: "63"
+    },
+    {
+        nome: "Gadolínio",
+        sigla: "Gd",
+        el: "64"
+    },
+    {
+        nome: "Térbio",
+        sigla: "Tb",
+        el: "65"
+    },
+    {
+        nome: "Disprósio",
+        sigla: "Dy",
+        el: "66"
+    },
+    {
+        nome: "Hólmio",
+        sigla: "Ho",
+        el: "67"
+    },
+    {
+        nome: "Érbio",
+        sigla: "Er",
+        el: "68"
+    },
+    {
+        nome: "Túlio",
+        sigla: "Tm",
+        el: "69"
+    },
+    {
+        nome: "Itérbio",
+        sigla: "Yb",
+        el: "70"
+    },
+    {
+        nome: "Lutécio",
+        sigla: "Lu",
+        el: "71"
+    },
+    {
+        nome: "Actínio",
+        sigla: "Ac",
+        el: "89"
+    },
+    {
+        nome: "Tório",
+        sigla: "Th",
+        el: "90"
+    },
+    {
+        nome: "Protactínio",
+        sigla: "Pa",
+        el: "91"
+    },
+    {
+        nome: "Urânio",
+        sigla: "U",
+        el: "92"
+    },
+    {
+        nome: "Neptúnio",
+        sigla: "Np",
+        el: "93"
+    },
+    {
+        nome: "Plutônio",
+        sigla: "Pu",
+        el: "94"
+    },
+    {
+        nome: "Amerício",
+        sigla: "Am",
+        el: "95"
+    },
+    {
+        nome: "Cúrio",
+        sigla: "Cm",
+        el: "96"
+    },
+    {
+        nome: "Berquélio",
+        sigla: "Bk",
+        el: "97"
+    },
+    {
+        nome: "Califórnio",
+        sigla: "Cf",
+        el: "98"
+    },
+    {
+        nome: "Einstênio",
+        sigla: "Es",
+        el: "99"
+    },
+    {
+        nome: "Férmio",
+        sigla: "Fm",
+        el: "100"
+    },
+    {
+        nome: "Mendelévio",
+        sigla: "Md",
+        el: "101"
+    },
+    {
+        nome: "Nobélio",
+        sigla: "No",
+        el: "102"
+    },
+    {
+        nome: "Laurêncio",
+        sigla: "Lr",
+        el: "103"
+    }
+]

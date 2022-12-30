@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
 }
 
 :root {
     --dark-bg: #1F272A;
-    --dark-text: #37464D;
-    --dark-principal: #232C31;
-    --dark-segunda: #3C4D54;
-    --dark-sombra: #2e2e2e;
+    --dark-text: #D2D4DC;
+    --dark-principal: #313b40;
+    --dark-segunda: #384145;
+    --dark-sombra: #4343435f;
 
     --light-bg: #E5E6EB;
-    --light-text: #AFAFAF;
+    --light-text: #313b40;
     --light-principal: #D2D4DC;
-    --light-segunda: #c0c2ce;
-    --light-sombra: #2e2e2e;
+    --light-segunda: #f6f8fbb9;
+    --light-sombra: #4343435f;
   
   }
   
@@ -35,16 +38,23 @@
     --sombra: var(--light-sombra);
   }
   
-
 body{
-    width: 100vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+}
+
+.container{
+    width: fit-content;
     height: 100vh;
-    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--bg);
+    gap: 15px;
 }
 .tabela{
     width: fit-content;
@@ -52,11 +62,21 @@ body{
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     gap: 7px;
+    color: var(--text);
+
 }
+.lantact{
+    width: fit-content;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 7px;
+    color: var(--text);
+  }
 .elemento{
     background-color: var(--principal);
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     padding: 2px 5px;
     text-align: center;
     display: flex;
@@ -69,33 +89,92 @@ body{
     user-select: none;
 }
 
-.elemento .eletron{
+.elemento .numA{
     text-align: right;
     font-size: 12px;
 }
 .elemento .sigla{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 4px;
 }
 .elemento .nome{
     font-size: 10px;
 }
 
-.elemento .verso{
-    transform: rotateY(-180deg);
-  }
-.elemento.flip .verso{
-    transform: rotateY(0);
-  }
-.elemento.flip .frente{
-    transform: rotateY(180deg);
-  }
-
-.btns button{
+.btns .btn{
     text-transform: uppercase;
     padding: 8px 10px;
-    width: 140px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     border: none;
     outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--segunda);
+    color: var(--text);
 }
 
+.btn span{
+  font-size: 18px;
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.help{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1%;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.modal{
+  display: none;
+  position: absolute;
+  margin: auto;
+  z-index: 9999;
+  width: 50%;
+  background-color: var(--bg);
+  padding: 30px;
+  box-shadow: 2px 2px 20px var(--sombra);
+  border-radius: 15px;
+  color: var(--text);
+  text-align: center;
+}
+
+.modal h2{
+  font-size: 25px;
+  font-weight: 400;
+  border-bottom: 1px solid var(--text);
+  padding: 3px;
+  letter-spacing: 1px;
+}
+
+.modal p{
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.modal .close{
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.dicas li{
+  margin-bottom: 3px;
+}
