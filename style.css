@@ -118,6 +118,8 @@ body{
   background-color: var(--segunda);
   color: var(--text);
   opacity: .95;
+  z-index: 200;
+
 }
 
 .btn span{
@@ -144,6 +146,7 @@ span.help{
   cursor: pointer;
   font-size: 22px;
   opacity: .8;
+  z-index: 200;
 }
 
 .modal{
