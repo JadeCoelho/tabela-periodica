@@ -1,0 +1,217 @@
+@media screen and (max-width:1200px){
+    .tabela, .lantact{
+        gap: 3px;
+    }
+    .elemento{
+        width: 50px;
+        height: 45px;
+    }
+    .elemento .numA{
+        font-size: 8px;
+    }
+    .elemento .sigla{
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .elemento .nome{
+        font-size: 8px;
+    }
+    .btns .btn{
+        padding: 5px 8px;
+        width: 35px;
+        height: 35px;
+    }
+    .btn span, span.help{
+        font-size: 15px;
+    }
+    .modal h2{
+        font-size: 16px;
+    }
+    .modal p{
+        font-size: 13px;
+    }
+    .dicas li{
+        font-size: 11px;
+    }
+    .modal .close{
+        font-size: 17px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .container{
+        gap: 10px;
+    }
+    .tabela, .lantact{
+        gap: 1.6px;
+    }
+    .elemento{
+        width: 42px;
+        height: 37px;
+        border-radius: 3.5px;
+    }
+    .elemento .numA{
+        font-size: 6px;
+    }
+    .elemento .sigla{
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+    .elemento .nome{
+        font-size: 6px;
+        font-weight: 400;
+    }
+    .btns .btn{
+        width: 30px;
+        height: 30px;
+    }
+    .btn span, span.help{
+        font-size: 13px;
+    }
+    .modal h2{
+        font-size: 14px;
+    }
+    .modal p{
+        font-size: 12px;
+    }
+    .dicas li{
+        font-size: 11px;
+    }
+    .modal .close{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .tabela, .lantact{
+        gap: 1.9px;
+    }
+    .elemento{
+        width: 33px;
+        height: 30px;
+        border-radius: 2.5px;
+    }
+    .elemento .numA{
+        font-size: 5px;
+    }
+    .elemento .sigla{
+        font-size: 9px;
+        margin-bottom: 2px;
+    }
+    .elemento .nome{
+        font-size: 4.5px;
+    }
+    .btns .btn{
+        width: 25px;
+        height: 25px;
+    }
+    .btn span, span.help{
+        font-size: 11px;
+    }
+    .modal h2{
+        font-size: 13px;
+    }
+    .modal p{
+        font-size: 10px;
+    }
+    .dicas li{
+        font-size: 9px;
+    }
+    .modal .close{
+        font-size: 14px;
+    }
+    footer{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width:570px){
+    .tabela, .lantact{
+        gap: 1.5px;
+    }
+    .elemento{
+        width: 29px;
+        height: 28px;
+    }
+    .elemento .numA{
+        font-size: 4.5px;
+    }
+    .elemento .sigla{
+        font-size: 8px;
+    }
+    .elemento .nome{
+        font-size: 4px;
+    }
+    .btns .btn{
+        width: 22px;
+        height: 22px;
+    }
+    .btn span, span.help{
+        font-size: 10px;
+    }
+    .modal h2{
+        font-size: 13px;
+    }
+    .modal p{
+        font-size: 10px;
+    }
+    .dicas li{
+        font-size: 9px;
+    }
+    .modal .close{
+        font-size: 14px;
+    }
+    footer{
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .tabela, .lantact{
+        gap: 0px;
+    }
+    .elemento{
+        width: 26px;
+        height: 25px;
+        border-radius: 2px;
+        border: 0.3px solid var(--bg);
+        padding: 3px;
+    }
+    .elemento .numA{
+        font-size: 4px;
+    }
+    .elemento .sigla{
+        font-size: 7px;
+    }
+    .elemento .nome{
+        font-size: 3.5px;
+    }
+    .btns .btn{
+        width: 21px;
+        height: 21px;
+    }
+    .btn span, span.help{
+        font-size: 10px;
+    }
+    .modal h2{
+        font-size: 13px;
+    }
+    .modal p{
+        font-size: 10px;
+    }
+    .dicas li{
+        font-size: 9px;
+    }
+    .modal .close{
+        font-size: 14px;
+    }
+    footer{
+        font-size: 5px;
+    }
+}

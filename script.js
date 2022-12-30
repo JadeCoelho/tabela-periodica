@@ -787,6 +787,14 @@ const  lantact = [
 var tabela = document.querySelector('.tabela')
 var tabelaLA = document.querySelector('.lantact')
 
+var btn = document.querySelector('.visivel')
+var tema = document.querySelector('.tema')
+
+var help = document.querySelector('.help')
+var fechar = document.querySelector('.close')
+var modal = document.querySelector('.modal')
+var container = document.querySelector('.container')
+
 function criaElemento() {
 
   for (const element of elementos) {
@@ -805,13 +813,10 @@ function criaElemento() {
 
     let elementoE = document.createElement('div');
     elementoE.className = "elemento";
-    let frente = document.createElement('div');
-    frente.className = "frente";
 
-    frente.appendChild(nA);
-    frente.appendChild(siglaE);
-    frente.appendChild(nomeE);
-    elementoE.appendChild(frente);
+    elementoE.appendChild(nA);
+    elementoE.appendChild(siglaE);
+    elementoE.appendChild(nomeE);
 
     tabela.appendChild(elementoE);
 
@@ -847,7 +852,6 @@ function criaElemento() {
     })
   }
 
-
   for (const ele of lantact) {
 
     let LAnA = document.createElement('p');
@@ -864,13 +868,10 @@ function criaElemento() {
 
     let eleE = document.createElement('div');
     eleE.className = "elemento";
-    let elefrente = document.createElement('div');
-    elefrente.className = "frente";
 
-    elefrente.appendChild(LAnA);
-    elefrente.appendChild(LAsiglaE);
-    elefrente.appendChild(LAnomeE);
-    eleE.appendChild(elefrente);
+    eleE.appendChild(LAnA);
+    eleE.appendChild(LAsiglaE);
+    eleE.appendChild(LAnomeE);
 
     tabelaLA.appendChild(eleE);
 
@@ -907,9 +908,6 @@ function criaElemento() {
   }
 }
 
-var btn = document.querySelector('.visivel')
-var tema = document.querySelector('.tema')
-var body = document.querySelector('body')
 btn.addEventListener('click', ()=>{
     let span = btn.querySelector('span')
     if(span.textContent == 'visibility'){
@@ -923,19 +921,14 @@ tema.addEventListener('click', ()=>{
     let spanTema = tema.querySelector('span')
     if(spanTema.textContent == 'light_mode'){
         spanTema.textContent = 'dark_mode'
-        body.classList.remove('claro')
-        body.classList.add('escuro')
+        document.body.classList.remove('claro')
+        document.body.classList.add('escuro')
     } else{
         spanTema.textContent = 'light_mode'
-        body.classList.remove('escuro')
-        body.classList.add('claro')
+        document.body.classList.remove('escuro')
+        document.body.classList.add('claro')
     }
 })
-
-var help = document.querySelector('.help')
-var fechar = document.querySelector('.close')
-var modal = document.querySelector('.modal')
-var container = document.querySelector('.container')
 
 help.addEventListener('click', ()=>{
     modal.style.display = 'block'
@@ -946,7 +939,6 @@ fechar.addEventListener('click', ()=>{
     modal.style.display = 'none'
     container.style.opacity = '1'
 })
-
 
 criaElemento()
 
