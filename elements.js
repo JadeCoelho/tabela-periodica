@@ -10,13 +10,13 @@ export const elements = [
       },
       symbol: "Ac",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 10.07,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1050,
         unit: "°C",
       },
@@ -25,7 +25,7 @@ export const elements = [
         value: 1.1,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: "3197",
         unit: "°C",
       },
@@ -95,13 +95,13 @@ export const elements = [
       },
       symbol: "Ag",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 10.49,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 961.78,
         unit: "°C",
       },
@@ -110,7 +110,7 @@ export const elements = [
         value: 1.93,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2162,
         unit: "°C",
       },
@@ -179,13 +179,13 @@ export const elements = [
       },
       symbol: "Al",
       period: 3,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 2.697,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 660.2999999999998,
         unit: "°C",
       },
@@ -194,7 +194,7 @@ export const elements = [
         value: 1.61,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2470,
         unit: "°C",
       },
@@ -263,13 +263,13 @@ export const elements = [
       },
       symbol: "Am",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 13.6,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1176,
         unit: "°C",
       },
@@ -278,7 +278,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2607,
         unit: "°C",
       },
@@ -348,13 +348,13 @@ export const elements = [
       },
       symbol: "Ar",
       period: 3,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.0017824,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -189.35,
         unit: "°C",
       },
@@ -363,7 +363,7 @@ export const elements = [
         value: 0,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -185.85,
         unit: "°C",
       },
@@ -433,13 +433,13 @@ export const elements = [
       },
       symbol: "As",
       period: 4,
-      block: "Semimetais",
+      class: "Semimetais",
       density: {
         value: 5.776,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 817,
         unit: "°C",
       },
@@ -448,7 +448,7 @@ export const elements = [
         value: 2.18,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 603,
         unit: "°C",
       },
@@ -517,13 +517,13 @@ export const elements = [
       },
       symbol: "At",
       period: 6,
-      block: "Halogênios",
+      class: "Halogênios",
       density: {
         value: 7,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 302,
         unit: "°C",
       },
@@ -532,7 +532,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 337,
         unit: "°C",
       },
@@ -602,13 +602,13 @@ export const elements = [
       },
       symbol: "Au",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 19.32,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1064.43,
         unit: "°C",
       },
@@ -617,7 +617,7 @@ export const elements = [
         value: 2.4,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2966,
         unit: "°C",
       },
@@ -687,13 +687,13 @@ export const elements = [
       },
       symbol: "B",
       period: 2,
-      block: "Semimetais",
+      class: "Semimetais",
       density: {
         value: 2.34,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2076,
         unit: "°C",
       },
@@ -702,7 +702,7 @@ export const elements = [
         value: 2.04,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3927,
         unit: "°C",
       },
@@ -771,13 +771,13 @@ export const elements = [
       },
       symbol: "Ba",
       period: 6,
-      block: "Metais alcalino-terrosos",
+      class: "Metais alcalino-terrosos",
       density: {
         value: 3.594,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 727,
         unit: "°C",
       },
@@ -786,7 +786,7 @@ export const elements = [
         value: 0.89,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1897,
         unit: "°C",
       },
@@ -856,13 +856,13 @@ export const elements = [
       },
       symbol: "Be",
       period: 2,
-      block: "Metais alcalino-terrosos",
+      class: "Metais alcalino-terrosos",
       density: {
         value: 1.85,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1287,
         unit: "°C",
       },
@@ -871,7 +871,7 @@ export const elements = [
         value: 1.57,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2469,
         unit: "°C",
       },
@@ -940,13 +940,13 @@ export const elements = [
       },
       symbol: "Bh",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 37,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         unit: "°C",
       },
@@ -955,7 +955,7 @@ export const elements = [
         value: null,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         unit: "°C",
       },
@@ -1025,13 +1025,13 @@ export const elements = [
       },
       symbol: "Bi",
       period: 6,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 9.78,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 271.5,
         unit: "°C",
       },
@@ -1040,7 +1040,7 @@ export const elements = [
         value: 2.02,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1564,
         unit: "°C",
       },
@@ -1110,13 +1110,13 @@ export const elements = [
       },
       symbol: "Bk",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 14.78,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 986,
         unit: "°C",
       },
@@ -1125,7 +1125,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2900,
         unit: "°C",
       },
@@ -1195,13 +1195,13 @@ export const elements = [
       },
       symbol: "Br",
       period: 4,
-      block: "Halogênios",
+      class: "Halogênios",
       density: {
         value: 3.122,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -7.2,
         unit: "°C",
       },
@@ -1210,7 +1210,7 @@ export const elements = [
         value: 2.96,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 58.8,
         unit: "°C",
       },
@@ -1279,13 +1279,13 @@ export const elements = [
       },
       symbol: "C",
       period: 2,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 2.267,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 3675,
         unit: "°C",
       },
@@ -1294,7 +1294,7 @@ export const elements = [
         value: 2.55,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4027,
         unit: "°C",
       },
@@ -1363,13 +1363,13 @@ export const elements = [
       },
       symbol: "Ca",
       period: 4,
-      block: "Metais alcalino-terrosos",
+      class: "Metais alcalino-terrosos",
       density: {
         value: 1.54,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 842,
         unit: "°C",
       },
@@ -1378,7 +1378,7 @@ export const elements = [
         value: 1,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1484,
         unit: "°C",
       },
@@ -1447,13 +1447,13 @@ export const elements = [
       },
       symbol: "Cd",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 8.65,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 321.108,
         unit: "°C",
       },
@@ -1462,7 +1462,7 @@ export const elements = [
         value: 1.69,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 765,
         unit: "°C",
       },
@@ -1531,13 +1531,13 @@ export const elements = [
       },
       symbol: "Ce",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 6.769999999999999,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 795,
         unit: "°C",
       },
@@ -1546,7 +1546,7 @@ export const elements = [
         value: 1.12,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3443,
         unit: "°C",
       },
@@ -1616,13 +1616,13 @@ export const elements = [
       },
       symbol: "Cf",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 15.1,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 900,
         unit: "°C",
       },
@@ -1631,7 +1631,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1472,
         unit: "°C",
       },
@@ -1701,13 +1701,13 @@ export const elements = [
       },
       symbol: "Cl",
       period: 3,
-      block: "Halogênios",
+      class: "Halogênios",
       density: {
         value: 0.003214,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -101.5,
         unit: "°C",
       },
@@ -1716,7 +1716,7 @@ export const elements = [
         value: 3.16,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -34.04,
         unit: "°C",
       },
@@ -1785,13 +1785,13 @@ export const elements = [
       },
       symbol: "Cm",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 13.51,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1340,
         unit: "°C",
       },
@@ -1800,7 +1800,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3110,
         unit: "°C",
       },
@@ -1870,13 +1870,13 @@ export const elements = [
       },
       symbol: "Cn",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 27.3,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo:
           "Seu ponto de fusão seria mais baixo que o do mercúrio, seguindo a tendência observada na família 2B. Entretanto, ainda não se conhecem compostos do copernício, pois o elemento foi obtido em quantidades extremamente pequenas (cerca de 6 átomos), e seu tempo de desintegração é de apenas alguns nanossegundos, tempo curto demais para seus compostos serem isolados antes do elemento decair a elementos mais estáveis. Aliás, os possíveis compostos do copernício seriam decompostos pelos efeitos da própria radiação do elemento (autorradiólise).",
@@ -1889,7 +1889,7 @@ export const elements = [
           "Ainda não se conhecem compostos do copernício, pois o elemento foi obtido em quantidades extremamente pequenas (cerca de 6 átomos), e seu tempo de desintegração é de apenas alguns nanossegundos, tempo curto demais para seus compostos serem isolados antes do elemento decair a elementos mais estáveis. Aliás, os possíveis compostos do copernício seriam decompostos pelos efeitos da própria radiação do elemento (autorradiólise).",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo:
           "Ainda não se conhecem compostos do copernício, pois o elemento foi obtido em quantidades extremamente pequenas (cerca de 6 átomos), e seu tempo de desintegração é de apenas alguns nanossegundos, tempo curto demais para seus compostos serem isolados antes do elemento decair a elementos mais estáveis. Aliás, os possíveis compostos do copernício seriam decompostos pelos efeitos da própria radiação do elemento (autorradiólise).",
@@ -1960,13 +1960,13 @@ export const elements = [
       },
       symbol: "Co",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 8.86,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1495,
         unit: "°C",
       },
@@ -1975,7 +1975,7 @@ export const elements = [
         value: 1.88,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2927,
         unit: "°C",
       },
@@ -2044,13 +2044,13 @@ export const elements = [
       },
       symbol: "Cr",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 7.15,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1907,
         unit: "°C",
       },
@@ -2059,7 +2059,7 @@ export const elements = [
         value: 1.66,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2671,
         unit: "°C",
       },
@@ -2128,13 +2128,13 @@ export const elements = [
       },
       symbol: "Cs",
       period: 6,
-      block: "Metais alcalinos",
+      class: "Metais alcalinos",
       density: {
         value: 1.873,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 28.44,
         unit: "°C",
       },
@@ -2143,7 +2143,7 @@ export const elements = [
         value: 0.79,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 671,
         unit: "°C",
       },
@@ -2213,13 +2213,13 @@ export const elements = [
       },
       symbol: "Cu",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 8.96,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1084.62,
         unit: "°C",
       },
@@ -2228,7 +2228,7 @@ export const elements = [
         value: 1.9,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2562,
         unit: "°C",
       },
@@ -2298,13 +2298,13 @@ export const elements = [
       },
       symbol: "Db",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 39,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -2315,7 +2315,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -2386,13 +2386,13 @@ export const elements = [
       },
       symbol: "Ds",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 34.79999999999999,
         unit: "(presumido) g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor Desconhecido",
         unit: "°C",
@@ -2403,7 +2403,7 @@ export const elements = [
         Motivo: "Valor Desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor Desconhecido",
         unit: "°C",
@@ -2473,13 +2473,13 @@ export const elements = [
       },
       symbol: "Dy",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 8.55,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1407,
         unit: "°C",
       },
@@ -2488,7 +2488,7 @@ export const elements = [
         value: 1.22,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2567,
         unit: "°C",
       },
@@ -2558,13 +2558,13 @@ export const elements = [
       },
       symbol: "Er",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 9.066,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1529,
         unit: "°C",
       },
@@ -2573,7 +2573,7 @@ export const elements = [
         value: 1.2400000000000002,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2868,
         unit: "°C",
       },
@@ -2643,13 +2643,13 @@ export const elements = [
       },
       symbol: "Es",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 8.84,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 860,
         unit: "°C",
       },
@@ -2658,7 +2658,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -2729,13 +2729,13 @@ export const elements = [
       },
       symbol: "Eu",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 5.243,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 826,
         unit: "°C",
       },
@@ -2744,7 +2744,7 @@ export const elements = [
         value: 1.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1529,
         unit: "°C",
       },
@@ -2814,13 +2814,13 @@ export const elements = [
       },
       symbol: "F",
       period: 2,
-      block: "Halogênios",
+      class: "Halogênios",
       density: {
         value: 0.001696,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -219.62,
         unit: "°C",
       },
@@ -2829,7 +2829,7 @@ export const elements = [
         value: 3.98,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -188.12,
         unit: "°C",
       },
@@ -2898,13 +2898,13 @@ export const elements = [
       },
       symbol: "Fe",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 7.874,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1538,
         unit: "°C",
       },
@@ -2913,7 +2913,7 @@ export const elements = [
         value: 1.83,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2861,
         unit: "°C",
       },
@@ -2982,13 +2982,13 @@ export const elements = [
       },
       symbol: "Fl",
       period: 7,
-      block: "Outros metais",
+      class: "Propriedades desconhecidas",
       density: {
         value: 14,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -73,
         unit: "°C",
       },
@@ -2998,7 +2998,7 @@ export const elements = [
         Motivo: "Em estudo",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 107,
         unit: "°C",
       },
@@ -3067,13 +3067,13 @@ export const elements = [
       },
       symbol: "Fm",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: null,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1527,
         unit: "°C",
       },
@@ -3082,7 +3082,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         unit: "°C",
       },
@@ -3152,13 +3152,13 @@ export const elements = [
       },
       symbol: "Fr",
       period: 7,
-      block: "Metais alcalinos",
+      class: "Metais alcalinos",
       density: {
         value: 1.87,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 23,
         unit: "°C",
       },
@@ -3167,7 +3167,7 @@ export const elements = [
         value: 0.7,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 677,
         unit: "°C",
       },
@@ -3237,13 +3237,13 @@ export const elements = [
       },
       symbol: "Ga",
       period: 4,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 5.907,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 29.76,
         unit: "°C",
       },
@@ -3252,7 +3252,7 @@ export const elements = [
         value: 1.81,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2204,
         unit: "°C",
       },
@@ -3321,13 +3321,13 @@ export const elements = [
       },
       symbol: "Gd",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 7.895,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1312,
         unit: "°C",
       },
@@ -3336,7 +3336,7 @@ export const elements = [
         value: 1.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3273,
         unit: "°C",
       },
@@ -3406,13 +3406,13 @@ export const elements = [
       },
       symbol: "Ge",
       period: 4,
-      block: "Semimetais",
+      class: "Semimetais",
       density: {
         value: 5.323,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 938.25,
         unit: "°C",
       },
@@ -3421,7 +3421,7 @@ export const elements = [
         value: 2.01,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2833,
         unit: "°C",
       },
@@ -3490,13 +3490,13 @@ export const elements = [
       },
       symbol: "H",
       period: 1,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 0.00008988,
         unit: "g/cm³",
       },
       classification: "Hidrogênio",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -259.34,
         unit: "°C",
       },
@@ -3505,7 +3505,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -252.87,
         unit: "°C",
       },
@@ -3574,13 +3574,13 @@ export const elements = [
       },
       symbol: "He",
       period: 1,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.0001785,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -272.2,
         unit: "°C",
       },
@@ -3589,7 +3589,7 @@ export const elements = [
         value: 0,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -268.93,
         unit: "°C",
       },
@@ -3658,13 +3658,13 @@ export const elements = [
       },
       symbol: "Hf",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 13.31,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2233,
         unit: "°C",
       },
@@ -3673,7 +3673,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4603,
         unit: "°C",
       },
@@ -3743,13 +3743,13 @@ export const elements = [
       },
       symbol: "Hg",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 13.5336,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -38.83,
         unit: "°C",
       },
@@ -3758,7 +3758,7 @@ export const elements = [
         value: 2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 357,
         unit: "°C",
       },
@@ -3828,13 +3828,13 @@ export const elements = [
       },
       symbol: "Ho",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 8.795,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1461,
         unit: "°C",
       },
@@ -3843,7 +3843,7 @@ export const elements = [
         value: 1.23,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2720,
         unit: "°C",
       },
@@ -3913,13 +3913,13 @@ export const elements = [
       },
       symbol: "Hs",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 41,
         unit: "(previsto) g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -3930,7 +3930,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -4001,13 +4001,13 @@ export const elements = [
       },
       symbol: "I",
       period: 5,
-      block: "Halogênios",
+      class: "Halogênios",
       density: {
         value: 4.93,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 113.7,
         unit: "°C",
       },
@@ -4016,7 +4016,7 @@ export const elements = [
         value: 2.66,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 184.25,
         unit: "°C",
       },
@@ -4085,13 +4085,13 @@ export const elements = [
       },
       symbol: "In",
       period: 5,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 7.31,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 156.6,
         unit: "°C",
       },
@@ -4100,7 +4100,7 @@ export const elements = [
         value: 1.78,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2072,
         unit: "°C",
       },
@@ -4169,13 +4169,13 @@ export const elements = [
       },
       symbol: "Ir",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 22.56,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2466,
         unit: "°C",
       },
@@ -4184,7 +4184,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4428,
         unit: "°C",
       },
@@ -4254,13 +4254,13 @@ export const elements = [
       },
       symbol: "K",
       period: 4,
-      block: "Metais alcalinos",
+      class: "Metais alcalinos",
       density: {
         value: 0.862,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 63.38,
         unit: "°C",
       },
@@ -4269,7 +4269,7 @@ export const elements = [
         value: 0.82,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 759,
         unit: "°C",
       },
@@ -4338,13 +4338,13 @@ export const elements = [
       },
       symbol: "Kr",
       period: 4,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.003733,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -157.36,
         unit: "°C",
       },
@@ -4353,7 +4353,7 @@ export const elements = [
         value: 3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -153.22,
         unit: "°C",
       },
@@ -4422,13 +4422,13 @@ export const elements = [
       },
       symbol: "La",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 6.144999999999999,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 920,
         unit: "°C",
       },
@@ -4437,7 +4437,7 @@ export const elements = [
         value: 1.1,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3464,
         unit: "°C",
       },
@@ -4507,13 +4507,13 @@ export const elements = [
       },
       symbol: "Li",
       period: 2,
-      block: "Metais alcalinos",
+      class: "Metais alcalinos",
       density: {
         value: 0.535,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 180.5,
         unit: "°C",
       },
@@ -4522,7 +4522,7 @@ export const elements = [
         value: 1,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1342,
         unit: "°C",
       },
@@ -4591,14 +4591,14 @@ export const elements = [
       },
       symbol: "Lr",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1626.85,
         unit: "°C",
       },
@@ -4607,7 +4607,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -4678,13 +4678,13 @@ export const elements = [
       },
       symbol: "Lu",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 9.84,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1652,
         unit: "°C",
       },
@@ -4693,7 +4693,7 @@ export const elements = [
         value: 1.27,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3402,
         unit: "°C",
       },
@@ -4763,13 +4763,13 @@ export const elements = [
       },
       symbol: "Lv",
       period: 7,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 12.9,
         unit: "(estimado) g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -4780,7 +4780,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -4851,14 +4851,14 @@ export const elements = [
       },
       symbol: "Mc",
       period: 7,
-      block: "Outros metais",
+      class: "Propriedades desconhecidas",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -4869,7 +4869,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -4940,14 +4940,14 @@ export const elements = [
       },
       symbol: "Md",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 826.85,
         unit: "°C",
       },
@@ -4956,7 +4956,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -5028,13 +5028,13 @@ export const elements = [
       },
       symbol: "Mg",
       period: 3,
-      block: "Metais alcalino-terrosos",
+      class: "Metais alcalino-terrosos",
       density: {
         value: 1.738,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 650,
         unit: "°C",
       },
@@ -5043,7 +5043,7 @@ export const elements = [
         value: 1.31,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1090,
         unit: "°C",
       },
@@ -5112,13 +5112,13 @@ export const elements = [
       },
       symbol: "Mn",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 7.44,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1246,
         unit: "°C",
       },
@@ -5127,7 +5127,7 @@ export const elements = [
         value: 1.55,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2061,
         unit: "°C",
       },
@@ -5196,13 +5196,13 @@ export const elements = [
       },
       symbol: "Mo",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 10.22,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2623,
         unit: "°C",
       },
@@ -5211,7 +5211,7 @@ export const elements = [
         value: 2.16,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4639,
         unit: "°C",
       },
@@ -5280,13 +5280,13 @@ export const elements = [
       },
       symbol: "Mt",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 35,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -5297,7 +5297,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -5368,13 +5368,13 @@ export const elements = [
       },
       symbol: "N",
       period: 2,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 0.0012506,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -210,
         unit: "°C",
       },
@@ -5383,7 +5383,7 @@ export const elements = [
         value: 3.04,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -195.79,
         unit: "°C",
       },
@@ -5452,13 +5452,13 @@ export const elements = [
       },
       symbol: "Na",
       period: 3,
-      block: "Metais alcalinos",
+      class: "Metais alcalinos",
       density: {
         value: 0.971,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 97.72,
         unit: "°C",
       },
@@ -5467,7 +5467,7 @@ export const elements = [
         value: 0.93,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 883,
         unit: "°C",
       },
@@ -5536,13 +5536,13 @@ export const elements = [
       },
       symbol: "Nb",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 8.57,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2477,
         unit: "°C",
       },
@@ -5551,7 +5551,7 @@ export const elements = [
         value: 1.6,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4744,
         unit: "°C",
       },
@@ -5620,13 +5620,13 @@ export const elements = [
       },
       symbol: "Nd",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 7.007,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1024,
         unit: "°C",
       },
@@ -5635,7 +5635,7 @@ export const elements = [
         value: 1.14,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3074,
         unit: "°C",
       },
@@ -5705,13 +5705,13 @@ export const elements = [
       },
       symbol: "Ne",
       period: 2,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.0008999,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -248.6,
         unit: "°C",
       },
@@ -5720,7 +5720,7 @@ export const elements = [
         value: 0,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -246,
         unit: "°C",
       },
@@ -5790,13 +5790,13 @@ export const elements = [
       },
       symbol: "Nh",
       period: 7,
-      block: "Outros metais",
+      class: "Propriedades desconhecidas",
       density: {
         value: 16,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 430,
         unit: "°C",
       },
@@ -5806,7 +5806,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1100,
         unit: "°C",
       },
@@ -5875,13 +5875,13 @@ export const elements = [
       },
       symbol: "Ni",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 8.912,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1455,
         unit: "°C",
       },
@@ -5890,7 +5890,7 @@ export const elements = [
         value: 1.91,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2913,
         unit: "°C",
       },
@@ -5959,14 +5959,14 @@ export const elements = [
       },
       symbol: "No",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 827,
         unit: "°C",
       },
@@ -5975,7 +5975,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -6046,13 +6046,13 @@ export const elements = [
       },
       symbol: "Np",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 20.45,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 637,
         unit: "°C",
       },
@@ -6061,7 +6061,7 @@ export const elements = [
         value: 1.36,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4000,
         unit: "°C",
       },
@@ -6131,13 +6131,13 @@ export const elements = [
       },
       symbol: "O",
       period: 2,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 0.001429,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -218.79,
         unit: "°C",
       },
@@ -6146,7 +6146,7 @@ export const elements = [
         value: 3.44,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -182.95,
         unit: "°C",
       },
@@ -6215,13 +6215,13 @@ export const elements = [
       },
       symbol: "Og",
       period: 7,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.01365,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -6232,7 +6232,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -6302,13 +6302,13 @@ export const elements = [
       },
       symbol: "Os",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 22.61,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 3033,
         unit: "°C",
       },
@@ -6317,7 +6317,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 5012,
         unit: "°C",
       },
@@ -6387,13 +6387,13 @@ export const elements = [
       },
       symbol: "P",
       period: 3,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 1.82,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 44.1,
         unit: "°C",
       },
@@ -6402,7 +6402,7 @@ export const elements = [
         value: 2.19,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 279.85,
         unit: "°C",
       },
@@ -6471,13 +6471,13 @@ export const elements = [
       },
       symbol: "Pa",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 15.37,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1568,
         unit: "°C",
       },
@@ -6486,7 +6486,7 @@ export const elements = [
         value: 1.5,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4027,
         unit: "°C",
       },
@@ -6556,13 +6556,13 @@ export const elements = [
       },
       symbol: "Pb",
       period: 6,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 11.342,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 327.4599999999999,
         unit: "°C",
       },
@@ -6571,7 +6571,7 @@ export const elements = [
         value: 2.33,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1749,
         unit: "°C",
       },
@@ -6641,13 +6641,13 @@ export const elements = [
       },
       symbol: "Pd",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 12.02,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1554.9,
         unit: "°C",
       },
@@ -6656,7 +6656,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2963,
         unit: "°C",
       },
@@ -6725,13 +6725,13 @@ export const elements = [
       },
       symbol: "Pm",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 7.26,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1042,
         unit: "°C",
       },
@@ -6741,7 +6741,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3000,
         unit: "°C",
       },
@@ -6811,13 +6811,13 @@ export const elements = [
       },
       symbol: "Po",
       period: 6,
-      block: "Semimetais",
+      class: "Metais pós transição",
       density: {
         value: 9.196,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 254,
         unit: "°C",
       },
@@ -6826,7 +6826,7 @@ export const elements = [
         value: 2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 962,
         unit: "°C",
       },
@@ -6896,13 +6896,13 @@ export const elements = [
       },
       symbol: "Pr",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 6.773,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 935,
         unit: "°C",
       },
@@ -6911,7 +6911,7 @@ export const elements = [
         value: 1.13,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3520,
         unit: "°C",
       },
@@ -6981,13 +6981,13 @@ export const elements = [
       },
       symbol: "Pt",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 21.45,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1768.3,
         unit: "°C",
       },
@@ -6996,7 +6996,7 @@ export const elements = [
         value: 2.28,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3825,
         unit: "°C",
       },
@@ -7066,13 +7066,13 @@ export const elements = [
       },
       symbol: "Pu",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 19.816,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 639.4,
         unit: "°C",
       },
@@ -7081,7 +7081,7 @@ export const elements = [
         value: 1.28,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3228,
         unit: "°C",
       },
@@ -7151,13 +7151,13 @@ export const elements = [
       },
       symbol: "Ra",
       period: 7,
-      block: "Metais alcalino-terrosos",
+      class: "Metais alcalino-terrosos",
       density: {
         value: 5.5,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 700,
         unit: "°C",
       },
@@ -7166,7 +7166,7 @@ export const elements = [
         value: 0.9,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1737,
         unit: "°C",
       },
@@ -7236,13 +7236,13 @@ export const elements = [
       },
       symbol: "Rb",
       period: 5,
-      block: "Metais alcalinos",
+      class: "Metais alcalinos",
       density: {
         value: 1.532,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 39.31,
         unit: "°C",
       },
@@ -7251,7 +7251,7 @@ export const elements = [
         value: 0.82,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 688,
         unit: "°C",
       },
@@ -7320,13 +7320,13 @@ export const elements = [
       },
       symbol: "Re",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 21.02,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 3186,
         unit: "°C",
       },
@@ -7335,7 +7335,7 @@ export const elements = [
         value: 1.9,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 5596,
         unit: "°C",
       },
@@ -7405,13 +7405,13 @@ export const elements = [
       },
       symbol: "Rf",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 23,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2100,
         unit: "°C",
       },
@@ -7421,7 +7421,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 5500,
         unit: "°C",
       },
@@ -7491,13 +7491,13 @@ export const elements = [
       },
       symbol: "Rg",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 28.7,
         unit: "(presumido) g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -7508,7 +7508,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -7578,13 +7578,13 @@ export const elements = [
       },
       symbol: "Rh",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 12.41,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1964,
         unit: "°C",
       },
@@ -7593,7 +7593,7 @@ export const elements = [
         value: 2.28,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3695,
         unit: "°C",
       },
@@ -7662,13 +7662,13 @@ export const elements = [
       },
       symbol: "Rn",
       period: 6,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.00973,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -71,
         unit: "°C",
       },
@@ -7677,7 +7677,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -61.7,
         unit: "°C",
       },
@@ -7747,13 +7747,13 @@ export const elements = [
       },
       symbol: "Ru",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 12.37,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2334,
         unit: "°C",
       },
@@ -7762,7 +7762,7 @@ export const elements = [
         value: 2.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4150,
         unit: "°C",
       },
@@ -7831,13 +7831,13 @@ export const elements = [
       },
       symbol: "S",
       period: 3,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 2.067,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 115.21,
         unit: "°C",
       },
@@ -7846,7 +7846,7 @@ export const elements = [
         value: 2.58,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 444.65,
         unit: "°C",
       },
@@ -7915,13 +7915,13 @@ export const elements = [
       },
       symbol: "Sb",
       period: 5,
-      block: "Semimetais",
+      class: "Semimetais",
       density: {
         value: 6.685,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 630.63,
         unit: "°C",
       },
@@ -7930,7 +7930,7 @@ export const elements = [
         value: 2.05,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1587,
         unit: "°C",
       },
@@ -7999,13 +7999,13 @@ export const elements = [
       },
       symbol: "Sc",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 2.989,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1541,
         unit: "°C",
       },
@@ -8014,7 +8014,7 @@ export const elements = [
         value: 1.36,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2836,
         unit: "°C",
       },
@@ -8083,13 +8083,13 @@ export const elements = [
       },
       symbol: "Se",
       period: 4,
-      block: "Não metais",
+      class: "Não metais",
       density: {
         value: 4.809,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 221,
         unit: "°C",
       },
@@ -8098,7 +8098,7 @@ export const elements = [
         value: 2.55,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 685,
         unit: "°C",
       },
@@ -8167,13 +8167,13 @@ export const elements = [
       },
       symbol: "Sg",
       period: 7,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 35,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -8184,7 +8184,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -8255,13 +8255,13 @@ export const elements = [
       },
       symbol: "Si",
       period: 3,
-      block: "Semimetais",
+      class: "Semimetais",
       density: {
         value: 2.3296,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1414,
         unit: "°C",
       },
@@ -8270,7 +8270,7 @@ export const elements = [
         value: 1.9,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3265,
         unit: "°C",
       },
@@ -8339,13 +8339,13 @@ export const elements = [
       },
       symbol: "Sm",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 7.52,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1072,
         unit: "°C",
       },
@@ -8354,7 +8354,7 @@ export const elements = [
         value: 1.17,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1794,
         unit: "°C",
       },
@@ -8424,13 +8424,13 @@ export const elements = [
       },
       symbol: "Sn",
       period: 5,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 7.287,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 231.93,
         unit: "°C",
       },
@@ -8439,7 +8439,7 @@ export const elements = [
         value: 1.96,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 2602,
         unit: "°C",
       },
@@ -8508,13 +8508,13 @@ export const elements = [
       },
       symbol: "Sr",
       period: 5,
-      block: "Metais alcalino-terrosos",
+      class: "Metais alcalino-terrosos",
       density: {
         value: 2.64,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 777,
         unit: "°C",
       },
@@ -8523,7 +8523,7 @@ export const elements = [
         value: 0.95,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1382,
         unit: "°C",
       },
@@ -8592,13 +8592,13 @@ export const elements = [
       },
       symbol: "Ta",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 16.654,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 3017,
         unit: "°C",
       },
@@ -8607,7 +8607,7 @@ export const elements = [
         value: 1.5,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 5458,
         unit: "°C",
       },
@@ -8677,13 +8677,13 @@ export const elements = [
       },
       symbol: "Tb",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 8.229,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1356,
         unit: "°C",
       },
@@ -8692,7 +8692,7 @@ export const elements = [
         value: 1.2,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3230,
         unit: "°C",
       },
@@ -8762,13 +8762,13 @@ export const elements = [
       },
       symbol: "Tc",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 11.5,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 2157,
         unit: "°C",
       },
@@ -8777,7 +8777,7 @@ export const elements = [
         value: 1.9,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4265,
         unit: "°C",
       },
@@ -8846,13 +8846,13 @@ export const elements = [
       },
       symbol: "Te",
       period: 5,
-      block: "Semimetais",
+      class: "Semimetais",
       density: {
         value: 6.232,
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 449.51,
         unit: "°C",
       },
@@ -8861,7 +8861,7 @@ export const elements = [
         value: 2.1,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 988,
         unit: "°C",
       },
@@ -8930,13 +8930,13 @@ export const elements = [
       },
       symbol: "Th",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 11.7,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1842,
         unit: "°C",
       },
@@ -8945,7 +8945,7 @@ export const elements = [
         value: 1.3,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4788,
         unit: "°C",
       },
@@ -9015,13 +9015,13 @@ export const elements = [
       },
       symbol: "Ti",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 4.54,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1668,
         unit: "°C",
       },
@@ -9030,7 +9030,7 @@ export const elements = [
         value: 1.54,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3287,
         unit: "°C",
       },
@@ -9099,13 +9099,13 @@ export const elements = [
       },
       symbol: "Tl",
       period: 6,
-      block: "Outros metais",
+      class: "Metais pós transição",
       density: {
         value: 11.85,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 304,
         unit: "°C",
       },
@@ -9114,7 +9114,7 @@ export const elements = [
         value: 1.62,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1473,
         unit: "°C",
       },
@@ -9184,13 +9184,13 @@ export const elements = [
       },
       symbol: "Tm",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 9.321,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1545,
         unit: "°C",
       },
@@ -9199,7 +9199,7 @@ export const elements = [
         value: 1.25,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1950,
         unit: "°C",
       },
@@ -9269,14 +9269,14 @@ export const elements = [
       },
       symbol: "Ts",
       period: 7,
-      block: "Halogênios",
+      class: "Propriedades desconhecidas",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "g/cm³",
       },
       classification: "Ametal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -9287,7 +9287,7 @@ export const elements = [
         Motivo: "Valor desconhecido",
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: null,
         Motivo: "Valor desconhecido",
         unit: "°C",
@@ -9358,13 +9358,13 @@ export const elements = [
       },
       symbol: "U",
       period: 7,
-      block: "Actinídeos",
+      class: "Actinídeos",
       density: {
         value: 18.95,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1132.2,
         unit: "°C",
       },
@@ -9373,7 +9373,7 @@ export const elements = [
         value: 1.38,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4131,
         unit: "°C",
       },
@@ -9443,13 +9443,13 @@ export const elements = [
       },
       symbol: "V",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 6.11,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1910,
         unit: "°C",
       },
@@ -9458,7 +9458,7 @@ export const elements = [
         value: 1.6299999999999997,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3407,
         unit: "°C",
       },
@@ -9527,13 +9527,13 @@ export const elements = [
       },
       symbol: "W",
       period: 6,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 19.25,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 3422,
         unit: "°C",
       },
@@ -9542,7 +9542,7 @@ export const elements = [
         value: 2.36,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 5555,
         unit: "°C",
       },
@@ -9612,13 +9612,13 @@ export const elements = [
       },
       symbol: "Xe",
       period: 5,
-      block: "Gases nobres",
+      class: "Gases nobres",
       density: {
         value: 0.005887,
         unit: "g/cm³",
       },
       classification: "Gás nobre",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: -111.7,
         unit: "°C",
       },
@@ -9627,7 +9627,7 @@ export const elements = [
         value: 2.6,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: -108.12,
         unit: "°C",
       },
@@ -9696,13 +9696,13 @@ export const elements = [
       },
       symbol: "Y",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 4.469,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1526,
         unit: "°C",
       },
@@ -9711,7 +9711,7 @@ export const elements = [
         value: 1.22,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 3336,
         unit: "°C",
       },
@@ -9780,13 +9780,13 @@ export const elements = [
       },
       symbol: "Yb",
       period: 6,
-      block: "Lantanídeos",
+      class: "Lantanídeos",
       density: {
         value: 6.965,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 824,
         unit: "°C",
       },
@@ -9795,7 +9795,7 @@ export const elements = [
         value: 1.1,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 1196,
         unit: "°C",
       },
@@ -9865,13 +9865,13 @@ export const elements = [
       },
       symbol: "Zn",
       period: 4,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 7.134,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 419.53,
         unit: "°C",
       },
@@ -9880,7 +9880,7 @@ export const elements = [
         value: 1.65,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 907,
         unit: "°C",
       },
@@ -9949,13 +9949,13 @@ export const elements = [
       },
       symbol: "Zr",
       period: 5,
-      block: "Metais de transição",
+      class: "Metais de transição",
       density: {
         value: 6.506,
         unit: "g/cm³",
       },
       classification: "Metal",
-      "Ponto de Fusão": {
+      meltingPoint: {
         value: 1855,
         unit: "°C",
       },
@@ -9964,7 +9964,7 @@ export const elements = [
         value: 1.33,
         unit: "eV",
       },
-      meltingPoint: {
+      boilingPoint: {
         value: 4409,
         unit: "°C",
       },
