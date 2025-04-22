@@ -4763,7 +4763,7 @@ export const elements = [
       },
       symbol: "Lv",
       period: 7,
-      class: "Metais pós transição",
+      class: "Propriedades desconhecidas",
       density: {
         value: 12.9,
         unit: "(estimado) g/cm³",
@@ -6215,7 +6215,7 @@ export const elements = [
       },
       symbol: "Og",
       period: 7,
-      class: "Gases nobres",
+      class: "Propriedades desconhecidas",
       density: {
         value: 0.01365,
         unit: "g/cm³",
@@ -6811,7 +6811,7 @@ export const elements = [
       },
       symbol: "Po",
       period: 6,
-      class: "Metais pós transição",
+      class: "Semimetais",
       density: {
         value: 9.196,
         unit: "g/cm³",
