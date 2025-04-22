@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabela Periódica</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="btns">
+        <button class="btn btn-mode" aria-label="alternar modo claro/escuro">
+          <i class="bx bxs-torch"></i>
+        </button>
+        <button
+          class="btn btn-visibility"
+          aria-label="ocultar/exibir elementos"
+        >
+          <i class="bx bx-show"></i>
+        </button>
+      </div>
+      <ul class="legend"></ul>
+    </header>
+
+    <main class="table"></main>
+    <div class="f-block"></div>
+
+    <aside class="tips">
+      <button class="show-tips"><i class="bx bx-right-arrow-alt"></i></button>
+      <ul></ul>
+    </aside>
+
     <script type="module" src="script.js"></script>
-</body>
+  </body>
 </html>
