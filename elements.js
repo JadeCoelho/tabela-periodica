@@ -2982,7 +2982,7 @@ export const elements = [
       },
       symbol: "Fl",
       period: 7,
-      class: "Propriedades desconhecidas",
+      class: "Metais pós transição",
       density: {
         value: 14,
         unit: "g/cm³",
@@ -4763,7 +4763,7 @@ export const elements = [
       },
       symbol: "Lv",
       period: 7,
-      class: "Propriedades desconhecidas",
+      class: "Metais pós transição",
       density: {
         value: 12.9,
         unit: "(estimado) g/cm³",
@@ -4851,7 +4851,7 @@ export const elements = [
       },
       symbol: "Mc",
       period: 7,
-      class: "Propriedades desconhecidas",
+      class: "Metais pós transição",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
@@ -5790,7 +5790,7 @@ export const elements = [
       },
       symbol: "Nh",
       period: 7,
-      class: "Propriedades desconhecidas",
+      class: "Metais pós transição",
       density: {
         value: 16,
         unit: "g/cm³",
@@ -6215,7 +6215,7 @@ export const elements = [
       },
       symbol: "Og",
       period: 7,
-      class: "Propriedades desconhecidas",
+      class: "Gases nobres",
       density: {
         value: 0.01365,
         unit: "g/cm³",
@@ -9269,7 +9269,7 @@ export const elements = [
       },
       symbol: "Ts",
       period: 7,
-      class: "Propriedades desconhecidas",
+      class: "Halogênios",
       density: {
         value: null,
         Motivo: "Valor desconhecido",
