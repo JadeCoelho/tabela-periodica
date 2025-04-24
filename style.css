@@ -248,3 +248,26 @@ body:not(.hide-elements) .element:hover,
 .tips ul li::marker {
   color: var(--btnColor);
 }
+
+footer {
+  width: 100%;
+  text-align: right;
+  font-size: 11px;
+  opacity: 0.8;
+  padding: 0.5rem 0.3rem;
+}
+
+footer,
+footer a {
+  color: var(--textColor);
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 0.1rem;
+}
+
+footer a:hover {
+  color: var(--metais-alcalinos);
+}

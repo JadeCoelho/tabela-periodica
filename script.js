@@ -2,13 +2,8 @@ import { elements } from "./elements.js"; // Importa os elementos
 
 // Obtém a lista de elementos ordenados pelo nº atômico:
 function getList() {
-  try {
-    elements.sort((a, b) => a.element.atomicNumber - b.element.atomicNumber);
-    return elements;
-  } catch (error) {
-    console.log(`Erro ao carregar lista: ${error}`);
-    return [];
-  }
+  elements.sort((a, b) => a.element.atomicNumber - b.element.atomicNumber);
+  return elements;
 }
 
 // Formata a classe do elemento para uso como classe CSS:

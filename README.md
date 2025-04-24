@@ -22,6 +22,6 @@ Uma tabela periódica construída com **HTML, CSS e JavaScript**, que permite ex
 Contribuições são bem-vindas! Sinta-se livre para abrir issues, enviar PRs ou sugerir melhorias. Seja educado(a).
 
 Esse projeto será postado no meu canal no YouTube!
-📹 Assista ao vídeo: [sem link, sem publicação ainda]
+📹 [Playlist](https://www.youtube.com/watch?v=SEU_VIDEO_ID)
 
 ⏳ Aberto para incrementações futuras
