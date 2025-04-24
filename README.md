@@ -15,7 +15,7 @@ Uma tabela periódica construída com **HTML, CSS e JavaScript**, que permite ex
 
 ## 📂 Estrutura do Projeto
 - `index.html`: Estrutura principal da página
-- `style.css`: Estilização com grid, temas e responsividade
+- `style.css`: Estilização com grid, temas etc
 - `script.js`: Toda a lógica de renderização e interatividade
 - `elements.js`: Base de dados com os elementos químicos
 
