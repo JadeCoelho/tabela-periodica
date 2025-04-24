@@ -14,7 +14,7 @@ function getList() {
 // Formata a classe do elemento para uso como classe CSS:
 function formatClass(c) {
   return c
-    .normalize("NFD") // Normaliza acentos (ex: á → a) 
+    .normalize("NFD") // Normaliza acentos (ex: á → a)
     .replace(/[\u0301-\u0327]/g, "") // Remove sinais diacríticos
     .replace(/\s+/g, "-") // Substitui espaços por hífens
     .toLowerCase(); // Converte tudo para minúsculo
@@ -25,9 +25,7 @@ function formatClass(c) {
 function formatAtomicMass(element) {
   const num = element.element.atomicMass.range.min;
 
-  if (Number.isInteger(num)) {
-    return num;
-  }
+  if (Number.isInteger(num)) return num;
 
   const numString = num.toString().split(".");
   return `${numString[0]}.${numString[1].slice(0, 3)}`;
@@ -39,10 +37,10 @@ const table = document.querySelector(".table"); // Seleciona a tabela HTML onde 
 // Renderiza o conteúdo HTML interno de um elemento:
 function renderElementContent(element) {
   return `
-  <header class="d-flex">
+  <div class="header d-flex">
     <span class="atomNum">${element.element.atomicNumber}</span>
     <span class="atomMass">${formatAtomicMass(element)}</span>
-  </header>
+  </div>
   <h2>${element.abbr}</h2>
   <p>${element.element.name}</p>
   `;
@@ -150,9 +148,8 @@ const root = document.documentElement; // Elemento raiz (para acessar variáveis
 
 // Aplica estilo de destaque a elementos com base na classe:
 function setCustomStyle(element, elementClass) {
-  const color = getComputedStyle(root)
-    .getPropertyValue(`--${elementClass}`)
-    .trim();
+  const color = getComputedStyle(root).getPropertyValue(`--${elementClass}`);
+
   const borderStyle = document.body.classList.contains("dark-mode")
     ? `2px solid color-mix(in srgb, ${color}, #fff 28%)`
     : `2px solid color-mix(in srgb, ${color}, transparent 50%)`;
